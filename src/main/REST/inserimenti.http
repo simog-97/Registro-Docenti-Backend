@@ -1,0 +1,65 @@
+### INSERIMENTO
+
+POST  http://localhost:3000/api/professor
+Content-Type: application/json
+
+{
+    "name" : "Alberto",
+    "surname": "Verdi",
+    "dob": "1975-04-10"
+}
+###
+
+POST  http://localhost:3000/api/degree
+Content-Type: application/json
+
+{
+    "name" : "Medicina",
+    "description": "blabla"
+}
+###
+
+POST  http://localhost:3000/api/subject
+Content-Type: application/json
+
+{
+    "degree": {
+        "id" : "1"
+    },
+    "name" : "Fondamenti di informatica",
+    "cfu" : "9"
+}
+###
+
+POST  http://localhost:3000/api/activity
+###POST  http://localhost:3000/api/activity
+   Content-Type: application/json
+
+   {
+       "activityType" : "lezione",
+       "topics" : "tante cose belle",
+       "classroom" : "Aula 2",
+       "date" : "2022-10-12",
+       "startTime" : "10:00",
+       "endTime" : "12:00",
+       "register": {
+           "id" : "1"
+       }
+   }
+
+POST  http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+    "year" : "2022",
+    "professor": {
+        "id" : "1"
+    },
+    "subject": {
+        "id" : "1"
+    }
+}
+###
+
+
+###
