@@ -2,7 +2,7 @@
 
 Il seguente codice rappresenta il backend dell'applicazione Registro Express.
 
-##Requisiti preliminari
+## Requisiti preliminari
 
 E' necessario avere istallato java development kit 17.
 
