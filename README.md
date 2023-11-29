@@ -12,3 +12,5 @@ Modificare il file application.properties all'interno del percorso "src/main/res
 ## Avvio
 
 Eseguire una build and run su "com.example.registri.RegistriApplication"
+
+L'applicazione verrà esposta su localost alla porta specificata tramite l'attributo server.port dentro application.properties
